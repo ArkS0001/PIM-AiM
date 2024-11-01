@@ -7,7 +7,7 @@ Processing-in-Memory   &amp;   Accelerator-in-Memory
     Benefits: By enabling data to be processed within the memory, PIM significantly reduces latency and energy consumption. It’s especially advantageous for tasks requiring high data bandwidth, like machine learning, big data analytics, and real-time processing.
     Implementation: SK Hynix’s PIM architecture likely involves modifications in DRAM or NAND memory chips to include logic operations, allowing for data computations directly within the memory cells.
 
-2. Accelerator in Memory (AiM)
+ Accelerator in Memory (AiM)
 
     Definition and Purpose: AiM is a specialized form of PIM where accelerators are embedded within memory chips. These accelerators are designed to optimize specific computational tasks, often focused on AI or deep learning functions, such as matrix multiplication or convolution operations.
     Benefits: By embedding accelerators, AiM reduces the data movement overhead and power consumption associated with transferring data between memory and CPU or GPU. This setup leads to faster processing times and more efficient handling of large-scale AI workloads.
